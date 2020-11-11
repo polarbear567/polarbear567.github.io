@@ -1,5 +1,3 @@
-[TOC]
-
 # Springboot启动方式一览及其原理
 
 ## java命令行运行jar文件
@@ -939,3 +937,4 @@ protected ExitStatus run(Collection<String> args) throws IOException {
 ## 总结
 
 ------
+本文的目的主要是介绍springboot中的一些启动方式以及背后的原理，希望自己与大家能够学到一些背后的知识并且重要的是能够在平时运用上，当然可能还有一些方式没有提到或者详细的介绍，比如前文提到的unix系统的服务启动，还有gradle启动等，这些大家可以自己去了解下，大抵上都逃不过本文已经介绍过的这几种所提到的根本方式。另本文形成仓促，如有不足，还请指正。
